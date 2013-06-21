@@ -174,11 +174,12 @@ INSTALLED_APPS = (
 #    EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
 
-from gstudio.xmlrpc import GSTUDIO_XMLRPC_METHODS
-XMLRPC_METHODS = GSTUDIO_XMLRPC_METHODS
+#from gstudio.xmlrpc import GSTUDIO_XMLRPC_METHODS
+#XMLRPC_METHODS = GSTUDIO_XMLRPC_METHODS
 try:
     from local_settings import *
     #print "Local settings applied"
 except:
     #print "Default settings applied"
     pass
+
