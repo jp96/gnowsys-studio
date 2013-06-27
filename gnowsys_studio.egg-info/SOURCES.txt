@@ -77,7 +77,6 @@ gnowsys_studio.egg-info/top_level.txt
 gstudio/4store_rdf_import.py
 gstudio/CNL.py
 gstudio/FinalScript.py
-gstudio/SParser.py
 gstudio/__init__.py
 gstudio/comparison.py
 gstudio/context_processors.py
